@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import Form from "./Components/Form.jsx";
-import ColorList from "./Components/ColorList";
+import ColorList from "./components/ColorList";
 import ExportModal from "./components/ExportModal";
 import Values from "values.js";
+import Form from "./components/Form";
 
 const App = () => {
   const [inputColor, setInputColor] = useState("#636bff");
