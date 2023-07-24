@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import Form from "./Components/Form";
+import Form from "./Components/Form.jsx";
 import ColorList from "./Components/ColorList";
 import ExportModal from "./components/ExportModal";
 import Values from "values.js";
